@@ -1,11 +1,18 @@
 <html>
-<head><title>Testing JSP Application</title></head>
+<head>
+<title>Testing JSP Application</title>
+<script>
+  function changeText() {
+    document.getElementById("changeableText").innerHTML = "this text have changed on load!";
+  }
+  </script>
+</head>
 <body>
   <h1>Welcome to our testing application!!</h1>
   <p id="changeableText">this should have changed on load...</p>
 
-  <script>
-    document.getElementById("changeableText").innerHTML = "this text have changed on load!";
-  </script>
+  <button onclick="changeText()"></button>
+
+  
 </body>
 </html>
