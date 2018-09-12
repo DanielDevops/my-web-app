@@ -11,7 +11,7 @@
   <h1>Welcome to our testing application!!</h1>
   <p id="changeableText">this should have changed on load...</p>
 
-  <button onclick="changeText()"></button>
+  <button onclick="changeText()">CHANGE TEXT!</button>
 
   
 </body>
