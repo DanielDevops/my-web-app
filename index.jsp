@@ -12,7 +12,7 @@
   <p id="changeableText">this should have changed on load...</p>
 
   <button onclick="changeText()">CHANGE TEXT!</button>
-  <p>git polling works!</p>
+  <!-- <p>git polling works!</p> -->
   
 </body>
 </html>
